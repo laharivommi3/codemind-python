@@ -1,7 +1,8 @@
-import math
+from math import sqrt
 n=int(input())
-sq=int(math.sqrt(n))
-if sq*(sq+1)==n:
-    print("YES")
+x=int(sqrt(n))
+if(x*(x+1)==n):
+    print("YES");
 else:
-    print("NO")
+    print("NO");
+    
